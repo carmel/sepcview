@@ -14,6 +14,7 @@ const render = async (filePath) => {
       redocContainer.textContent = "Rendering documentation...";
       const specObject = JSON.parse(specJsonString);
       if (typeof Redoc !== "undefined") {
+        console.log("Available methods in Redoc:", Object.keys(Redoc));
         Redoc.init(
           specObject, // Pass the parsed spec object
           {
