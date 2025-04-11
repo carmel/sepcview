@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SepcView</title>
+    <script src="./src/redoc.standalone.js"></script>
+  </head>
+  <body>
+    <div id="redoc-container">
+      <nav class="navbar">
+        <div class="logo">
+          <div class="logo-icon">
+            <img width="40" height="40" src="src/assets/images/appicon.svg">
+          </div>
+          <span>SepcView</span>
+        </div>
+      </nav>
+
+      <main>
+        <div class="hero-container">
+          <h1>OpenAPI 接口查看器</h1>
+
+          <div class="illustration">
+            <svg
+              width="100%"
+              height="200"
+              viewBox="0 0 600 300"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="75"
+                y="50"
+                width="450"
+                height="200"
+                rx="10"
+                fill="#EEF2FF"
+                stroke="#4361EE"
+                stroke-width="2"
+              />
+              <rect
+                x="95"
+                y="80"
+                width="150"
+                height="140"
+                rx="5"
+                fill="white"
+                stroke="#D1D9E6"
+                stroke-width="2"
+              />
+              <rect
+                x="265"
+                y="80"
+                width="240"
+                height="140"
+                rx="5"
+                fill="white"
+                stroke="#D1D9E6"
+                stroke-width="2"
+              />
+
+              <!-- API Endpoints List -->
+              <rect
+                x="105"
+                y="95"
+                width="130"
+                height="15"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="105"
+                y="120"
+                width="130"
+                height="15"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="105"
+                y="145"
+                width="130"
+                height="15"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="105"
+                y="170"
+                width="130"
+                height="15"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="105"
+                y="195"
+                width="80"
+                height="15"
+                rx="2"
+                fill="#E6E8EB"
+              />
+
+              <!-- GET Method Box -->
+              <rect
+                x="105"
+                y="120"
+                width="35"
+                height="15"
+                rx="2"
+                fill="#7FD1B9"
+              />
+
+              <!-- POST Method Box -->
+              <rect
+                x="105"
+                y="145"
+                width="35"
+                height="15"
+                rx="2"
+                fill="#4361EE"
+              />
+
+              <!-- DELETE Method Box -->
+              <rect
+                x="105"
+                y="170"
+                width="35"
+                height="15"
+                rx="2"
+                fill="#F87171"
+              />
+
+              <!-- API Documentation -->
+              <rect
+                x="280"
+                y="95"
+                width="210"
+                height="10"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="280"
+                y="115"
+                width="180"
+                height="10"
+                rx="2"
+                fill="#E6E8EB"
+              />
+              <rect
+                x="280"
+                y="135"
+                width="210"
+                height="10"
+                rx="2"
+                fill="#E6E8EB"
+              />
+
+              <rect
+                x="280"
+                y="160"
+                width="70"
+                height="20"
+                rx="3"
+                fill="#F1F3FF"
+              />
+              <rect
+                x="360"
+                y="160"
+                width="70"
+                height="20"
+                rx="3"
+                fill="#F1F3FF"
+              />
+
+              <rect
+                x="280"
+                y="190"
+                width="210"
+                height="10"
+                rx="2"
+                fill="#E6E8EB"
+              />
+            </svg>
+          </div>
+
+          <button id="upload-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            打开 yaml 文件
+          </button>
+
+          <div class="intro">
+            <a id="github-btn">SepcView</a> 是一款基于 ReDoc 的开源、现代化
+            OpenAPI 文档查看工具，它提供了简洁直观的界面。主要特点如下：
+
+            <ul>
+              <li>支持 OpenAPI 3.0 和 Swagger 2.0 规范</li>
+              <li>基于流行的 ReDoc 渲染引擎</li>
+              <li>轻量级桌面应用，无需在线服务</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>

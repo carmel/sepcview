@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="90" fill="#f0f4ff" />
+  
+  <!-- 外部六边形 -->
+  <polygon 
+    points="100,20 165,60 165,140 100,180 35,140 35,60" 
+    fill="#ffffff" 
+    stroke="#4361ee" 
+    stroke-width="4" 
+    stroke-linejoin="round" />
+    
+  <!-- 内部结构 - 文档布局 -->
+  <rect x="60" y="65" width="80" height="70" rx="3" fill="#f1f3ff" stroke="#4361ee" stroke-width="2" />
+  
+  <!-- 文档内部结构 - 左侧导航 -->
+  <rect x="65" y="70" width="25" height="60" rx="2" fill="#e0e7ff" />
+  
+  <!-- 导航条目 -->
+  <rect x="68" y="75" width="19" height="4" rx="1" fill="#4361ee" />
+  <rect x="68" y="83" width="19" height="3" rx="1" fill="#8da2fb" />
+  <rect x="68" y="90" width="19" height="3" rx="1" fill="#8da2fb" />
+  <rect x="68" y="97" width="19" height="3" rx="1" fill="#8da2fb" />
+  <rect x="68" y="104" width="19" height="3" rx="1" fill="#8da2fb" />
+  
+  <!-- 文档内容 -->
+  <rect x="95" y="75" width="40" height="3" rx="1" fill="#4361ee" />
+  <rect x="95" y="83" width="35" height="2" rx="1" fill="#8da2fb" />
+  <rect x="95" y="90" width="38" height="2" rx="1" fill="#8da2fb" />
+  <rect x="95" y="97" width="30" height="2" rx="1" fill="#8da2fb" />
+  <rect x="95" y="104" width="32" height="2" rx="1" fill="#8da2fb" />
+  
+  <!-- GET/POST 方法标签 -->
+  <rect x="95" y="114" width="15" height="6" rx="3" fill="#4cc38a" />
+  <rect x="115" y="114" width="15" height="6" rx="3" fill="#4361ee" />
+  
+</svg>
